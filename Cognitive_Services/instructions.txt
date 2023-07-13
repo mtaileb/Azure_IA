@@ -1,1 +1,28 @@
+// Après avoir créé la ressource Vision dans Azure et récupéré les clés et endpoint
+// Créer les variables d'environnement:
+setx VISION_KEY your-key
+setx VISION_ENDPOINT your-endpoint
+// Créer un projet ASP.NET Core dans Visual Studio et coller le code de program.cs dans Visual Studio, puis exécuter avec la touche raccourci F5
+// L'output devrait être:
+----------------------------------------------------------
+ANALYZE IMAGE - URL
 
+Analyzing the image sample16.png...
+
+Tags:
+grass 0.9957543611526489
+dog 0.9939157962799072
+mammal 0.9928356409072876
+animal 0.9918001890182495
+dog breed 0.9890419244766235
+pet 0.974603533744812
+outdoor 0.969241738319397
+companion dog 0.906731367111206
+small greek domestic dog 0.8965123891830444
+golden retriever 0.8877675533294678
+labrador retriever 0.8746421337127686
+puppy 0.872604250907898
+ancient dog breeds 0.8508287668228149
+field 0.8017748594284058
+retriever 0.6837497353553772
+brown 0.6581960916519165
