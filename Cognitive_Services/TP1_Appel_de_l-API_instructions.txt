@@ -1,5 +1,5 @@
 // Après avoir créé la ressource Vision dans Azure et récupéré les clés et endpoint
-// Créer les variables d'environnement:
+// Créer les variables d'environnement dans votre machine locale via la ligne de commande:
 setx VISION_KEY your-key
 setx VISION_ENDPOINT your-endpoint
 // Créer un projet ASP.NET Core dans Visual Studio et coller le code de program.cs dans Visual Studio, puis exécuter avec la touche raccourci F5
